@@ -21,11 +21,10 @@ This Alteryx project delivers an end-to-end **fraud detection and risk reporting
 | 📏 **Sample Tool** | Reduces dataset to 1000 rows for faster processing during testing. |
 | 🧮 **Formula Tool** | Derives new fields like `is_debit`, `balance_usage`, `is_full_depletion`, and `isHighRiskType`. |
 | 🧠 **Risk Scoring Logic** | Calculates `risk_score` based on conditions like amount, transaction type, and behavior. |
-| 🪜 **Multi-Row Formula Tool** *(Optional)* | Detects behavioral anomalies like high-frequency activity by sender. |
 | 🧾 **Filter Tool** | Extracts `High` and `Critical` tier transactions for focused analysis. |
 | 🔢 **Summarize Tool** | Aggregates fraud count, tier-wise metrics, and percentages. |
 | 📊 **Table Tool** | Displays structured results like fraud count per tier. |
-| 📈 **Chart Tool** *(Optional)* | Adds visuals like pie and bar charts for tier distribution. |
+| 📈 **Chart Tool**  | Adds visuals like pie and bar charts for tier distribution. |
 | 🧱 **Layout Tool** | Organizes all reporting components (tables + charts + text). |
 | 📄 **Render Tool** | Exports the final structured PDF or Word report (e.g., `Fraud_Risk_Report.pdf`). |
 
