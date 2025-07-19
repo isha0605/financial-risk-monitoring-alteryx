@@ -17,16 +17,16 @@ This Alteryx project delivers an end-to-end **fraud detection and risk reporting
 
 | Tool | Purpose |
 |------|---------|
-| 📥 **Input Data Tool** | Imports CSV data from the PaySim dataset. |
-| 📏 **Sample Tool** | Reduces dataset to 1000 rows for faster processing during testing. |
-| 🧮 **Formula Tool** | Derives new fields like `is_debit`, `balance_usage`, `is_full_depletion`, and `isHighRiskType`. |
-| 🧠 **Risk Scoring Logic** | Calculates `risk_score` based on conditions like amount, transaction type, and behavior. |
-| 🧾 **Filter Tool** | Extracts `High` and `Critical` tier transactions for focused analysis. |
-| 🔢 **Summarize Tool** | Aggregates fraud count, tier-wise metrics, and percentages. |
-| 📊 **Table Tool** | Displays structured results like fraud count per tier. |
-| 📈 **Chart Tool**  | Adds visuals like pie and bar charts for tier distribution. |
-| 🧱 **Layout Tool** | Organizes all reporting components (tables + charts + text). |
-| 📄 **Render Tool** | Exports the final structured PDF or Word report (e.g., `Fraud_Risk_Report.pdf`). |
+|  **Input Data Tool** | Imports CSV data from the PaySim dataset. |
+|  **Sample Tool** | Reduces dataset to 1000 rows for faster processing during testing. |
+|  **Formula Tool** | Derives new fields like `is_debit`, `balance_usage`, `is_full_depletion`, and `isHighRiskType`. |
+|  **Risk Scoring Logic** | Calculates `risk_score` based on conditions like amount, transaction type, and behavior. |
+|  **Filter Tool** | Extracts `High` and `Critical` tier transactions for focused analysis. |
+|  **Summarize Tool** | Aggregates fraud count, tier-wise metrics, and percentages. |
+|  **Table Tool** | Displays structured results like fraud count per tier. |
+|  **Chart Tool**  | Adds visuals like pie and bar charts for tier distribution. |
+|  **Layout Tool** | Organizes all reporting components (tables + charts + text). |
+|  **Render Tool** | Exports the final structured PDF or Word report (e.g., `Fraud_Risk_Report.pdf`). |
 
 ---
 
